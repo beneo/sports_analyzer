@@ -1,0 +1,31 @@
+# Core data science stack - ARM64 optimized versions for Apple Silicon
+numpy==2.2.6
+pandas==2.3.1  # Will auto-select best wheel for your platform
+scipy==1.16.1
+
+# Computer vision and ML - Latest versions
+opencv-python==4.12.0.88
+supervision==0.26.1
+scikit-learn==1.7.1
+umap-learn==0.5.9.post2
+
+# Deep learning - Latest compatible versions  
+torch==2.7.1
+transformers==4.54.1
+sentencepiece==0.2.0
+protobuf==6.31.1
+
+# Utilities - Latest versions
+tqdm==4.67.1
+pillow==11.3.0
+matplotlib==3.10.5
+seaborn==0.13.2
+
+# Configuration and logging - Latest versions
+pydantic==2.11.7
+loguru==0.7.3
+omegaconf==2.3.0
+
+# CLI tools - Latest versions
+click==8.2.1
+rich==14.1.0
